@@ -1,0 +1,13 @@
+@mixin pc {
+  // 751px以上
+  @media screen and (min-width: 751px) {
+    @content;
+  }
+}
+
+@mixin sp {
+  // 750px以下
+  @media screen and (max-width: 750px) {
+    @content;
+  }
+}

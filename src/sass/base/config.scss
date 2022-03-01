@@ -1,0 +1,18 @@
+// font
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "NotoSansCJKjp";
+  src: url("/assets/fonts/NotoSansCJKjp-hinted/NotoSansCJKjp-Regular-subset.woff") format("woff"),
+    url("/assets/fonts/NotoSansCJKjp-hinted/NotoSansCJKjp-Bold-subset.woff") format("woff");
+}
+
+//------------------------------------------------------------------
+// Font family
+//------------------------------------------------------------------
+$font-num: "Roboto", sans-serif;
+$font-default: "Hiragino Kaku Gothic ProN", "NotoSansCJKjp", "MS PGothic", sans-serif;
+
+//------------------------------------------------------------------
+// color
+//------------------------------------------------------------------
